@@ -10,10 +10,10 @@ products.addEventListener('click', function() {
 
 let About = document.getElementById('ButAbout');
 About.addEventListener('click', function() {
-  document.location.href = 'about.html';
+  document.location.href = 'producteurs.html';
 });
 
 let Login = document.getElementById('ButLog');
 Login.addEventListener('click', function() {
-  document.location.href = 'login.html';
+  document.location.href = 'account.html';
 });

@@ -1,0 +1,56 @@
+.header{
+	background-color: rgb(0, 96, 0);
+	height: 11vh;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	border-bottom: 1px solid black;
+	border-radius: 0px 0px 15px 15px;
+	display: grid;
+	grid-template-columns: 1fr 4fr 4fr 4fr 4fr;
+}
+
+#logo{
+	position: absolute;
+	width: 10vh;
+	margin-left: 2vh;
+	margin-top: 0.5vh;
+	grid-column: 1;
+}
+
+.headerBut{
+	background-color: rgb(0, 96, 0);
+	width: 20vw;
+	height: 11vh;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	border: 0.5px solid rgb(0, 96, 0);
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.headerBut:hover{
+	background-color: #fff;
+	color: rgb(0, 96, 0);
+	border: 0.5px solid rgb(0, 96, 0);
+}
+
+
+#ButHome{
+	grid-column: 2;
+}
+
+#ButProducts{
+	grid-column: 3;
+}
+
+#ButAbout{
+	grid-column: 4;
+}
+
+#ButLog{
+	grid-column: 5;
+}
