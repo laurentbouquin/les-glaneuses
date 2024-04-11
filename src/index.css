@@ -14,8 +14,20 @@ body {
   text-align: center;
 }
 
-.productImg {
-  width: 15vw;
+#map {
+  text-align: center;
+  width: 300px; /* Largeur souhaitée */
+  height: 900px; /* Hauteur triplée */
+  padding: 20px;
+}
+
+#map iframe {
+  position: relative;
+  width: 150%;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 15%;
 }
 
 td {
