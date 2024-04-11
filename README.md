@@ -1,5 +1,9 @@
 # Les Glaneuses
 
+<div style="text-align:center">
+<img src="images/logo_les_glaneuses.png" alt="Les Glaneuses" width="200"/>
+</div>
+
 Ce repo contient le site web des Glaneuses, projet réalisé durant le Hackathon du Crédit Agricole Centre Loire du 11 et 12 avril 2024.
 Ce projet a été réalisé en 48h par une équipe de 5 personnes, sans préparation préalable, soyez indulgents.
 
