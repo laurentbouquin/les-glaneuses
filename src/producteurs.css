@@ -51,7 +51,7 @@ body {
   grid-template-rows: auto auto;
   grid-gap: 10px; /* Espace entre les éléments */
   justify-items: center; /* Centre les éléments horizontalement */
-  font-size: larger;
+  font-size: xx-large;
 }
 
 #ProduitsText div {
