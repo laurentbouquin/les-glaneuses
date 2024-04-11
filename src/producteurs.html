@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="producteurs.css">
-	<link rel="stylesheet" href="navbar.css">
-	<title>Les Glaneuses - Producteurs</title>
-</head>
-<body>
-	<div class="header">
-		<img src="../images/logo_les_glaneuses.png" id="logo">
-		<button class="headerBut" id="ButHome">Accueil</button>
-		<button class="headerBut" id="ButProduct">Mes réservations</button>
-		<button class="headerBut" id="ButAbout" >Nos producteurs</button>
-		<button class="headerBut" id="ButLog" >Mon compte</button>
-	</div>
-</body>
-<script src="navbar.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="producteurs.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Les Glaneuses - Producteurs</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="../images/logo_les_glaneuses.png" id="logo" />
+      <button class="headerBut" id="ButHome">Accueil</button>
+      <button class="headerBut" id="ButProduct">Mes réservations</button>
+      <button class="headerBut" id="ButAbout">Nos producteurs</button>
+      <button class="headerBut" id="ButLog">Mon compte</button>
+    </div>
+    <h1 style="text-align: center">
+      Vous avez glané chez eux, découvrez qui ils sont !
+    </h1>
+    <div id="Presentation">
+      <div id="PresentationContent">
+        <div id="PresentationTitle">Jean-René</div>
+        <div id="PresentationText">
+          <p>
+            Éleveur bovin et laitier depuis 43 ans, Jean-René produit du blé
+            pour nourrir ses bêtes.
+          </p>
+          <p>
+            Il a toujours été passionné par son métier et a toujours eu à cœur
+            de respecter ses animaux et la nature.
+          </p>
+          <p>
+            Il a décidé de se lancer dans la vente directe pour pouvoir partager
+            sa passion et ses produits avec le plus grand nombre.
+          </p>
+        </div>
+      </div>
+      <div id="PresentationImage">
+        <img src="../images/jean-rene.jpeg" id="Image" />
+      </div>
+    </div>
+    <div id="ProduitsTitle"><ins>Ses produits</ins></div>
+    <div id="Produits">
+      <div id="ProduitsText">
+        <div id="ProduitsText1">
+          Viande de bœuf
+          <img src="../images/boeuf.jpeg" class="image" id="Image1" />
+        </div>
+        <div id="ProduitsText2">
+          Beurre
+          <img src="../images/beurre.jpeg" class="image" id="Image2" />
+        </div>
+        <div id="ProduitsText3">
+          Lait
+          <img src="../images/lait.jpeg" class="image" id="Image3" />
+        </div>
+        <div id="ProduitsText4">
+          Crème fraîche
+          <img src="../images/creme.jpeg" class="image" id="Image4" />
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <p id="footerTextMid">
+        Contactez-nous à
+        <a href="mailto:alexis.lasselin@algosup.com">contact@glaneuses.fr</a>
+      </p>
+      <p id="footerTextEnd">© 2022 Les Glaneuses</p>
+    </footer>
+    <script src="navbar.js"></script>
+  </body>
 </html>
