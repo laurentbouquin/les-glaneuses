@@ -1,56 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="index.css">
-	<link rel="stylesheet" href="navbar.css">
-	<title>Les Glaneuses - Accueil</title>
-</head>
-<body>
-	<div class="header">
-		<img src="../images/logo_les_glaneuses.png" id="logo">
-		<button class="headerBut" id="ButHome">Accueil</button>
-		<button class="headerBut" id="ButProduct">Mes réservations</button>
-		<button class="headerBut" id="ButAbout" >Nos producteurs</button>
-		<button class="headerBut" id="ButLog" >Mon compte</button>
-	</div>
-	<div class="cols">
-		<div id="main">
-			<div id="border"></div>
-			<h1 style="text-align: center;">Qui sommes-nous ?</h1>
-			<h3 style="text-align: center; width: 50vw; margin-left: 8vw;"><ins>Les Glaneuses</ins>, c'est ...(ALEXIS)...
-			</h3>
-		</div>
-		<div id="Top">
-			<table>
-				<tr>
-					<td>
-						<p class="productText">#1: Pomme</p>
-					</td>
-					<td>
-						<img src="https://mapetiteassiette.com/wp-content/uploads/2022/11/Design-sans-titre-4.png" class="productImg">
-					</td>
-					<td>
-						<p class="productText">Prix: 0.60€</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p class="productText">#2: Avocat</p>
-					</td>
-					<td>
-						<img src="https://www.francebleu.fr/s3/cruiser-production/2021/03/508ba5ba-8c88-4bf2-bb8c-de06de8dcebe/1200x680_gettyimages-1222302648.jpg" class="productImg">
-					</td>
-					<td>
-						<p class="productText">Prix: 2.80€</p>
-					</td>
-				</tr>
-			</table>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <title>Les Glaneuses - Accueil</title>
+  </head>
+  <body>
+    <div class="header">
+      <img src="../images/logo_les_glaneuses.png" id="logo" />
+      <button class="headerBut" id="ButHome">Accueil</button>
+      <button class="headerBut" id="ButProduct">Mes réservations</button>
+      <button class="headerBut" id="ButAbout">Nos producteurs</button>
+      <button class="headerBut" id="ButLog">Mon compte</button>
+    </div>
+    <div class="cols">
+      <div id="main">
+        <div id="border"></div>
+        <h1 style="text-align: center">Qui sommes-nous ?</h1>
+        <h3 style="text-align: center; width: 50vw; margin-left: 8vw">
+          <ins>Les Glaneuses</ins>, c'est une entreprise qui a pour but de permettre aux producteurs locaux de faciliter l'accès au glanage de leur champ, moyennant une petite somme. Les glaneurs peuvent ainsi récupérer des fruits et légumes de qualité à un prix très bas tandis que les producteurs gagnent du temps et de l'argent sur l'économie de la main d'oeuvre.
+          <div id="About">
+            <h1 style="text-align: center"> Nos engagements</h1>
+              <ul style="text-align: left;">
+                <li>Respect de l'environnement</li> 
+                <p>Nous nous engageons à promouvoir une agriculture locale et responsable, en limitant les déchets et en favorisant le circuit court.</p>
+                <li>Respect des producteurs</li>
+                <p>Nous nous engageons à rémunérer les producteurs à leur juste valeur et à les aider à développer leur activité. 75% des bénéfices leur sont reversés.</p>
+                <li>Respect des glaneurs</li>
+                <p>Nous nous engageons à proposer des produits de qualité à des prix très bas, pour permettre à tous de manger sainement pour un prix abordable.</p>
+              </ul>
+          </div>
+          <footer id="footer">
+            <p id="footerTextMid">Contactez-nous à <a href="mailto:alexis.lasselin@algosup.com">contact@glaneuses.fr</a></p>
+            <p id="footerTextEnd">© 2022 Les Glaneuses</p
+          </footer>
+      </div>
+      <div id="Top">
+        <table>
+          <tr>
+            <td>
+              <p class="productText">#1: Pomme</p>
+            </td>
+            <td>
+              <img
+                src="https://mapetiteassiette.com/wp-content/uploads/2022/11/Design-sans-titre-4.png"
+                class="productImg"
+              />
+            </td>
+            <td>
+              <p class="productText">Prix: 0.60€</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="productText">#2: Avocat</p>
+            </td>
+            <td>
+              <img
+                src="https://www.francebleu.fr/s3/cruiser-production/2021/03/508ba5ba-8c88-4bf2-bb8c-de06de8dcebe/1200x680_gettyimages-1222302648.jpg"
+                class="productImg"
+              />
+            </td>
+            <td>
+              <p class="productText">Prix: 2.80€</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
 
-		</div>
-	</div>
-</body>
-
-<script src="navbar.js"></script>
+  <script src="navbar.js"></script>
 </html>
