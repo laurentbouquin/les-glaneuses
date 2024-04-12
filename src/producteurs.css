@@ -57,7 +57,7 @@ body {
 	bottom: 0.5rem;
 }
 
-iframe {
+.map {
 	position: fixed;
 	width: calc(40vw - 4rem);
 	height: calc(100vh - var(--footer-height) - var(--nav-height) - 2rem);
