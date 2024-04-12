@@ -5,61 +5,62 @@ body {
   background-color: #eefff1;
 }
 
-#Presentation {
-  background-color: lightgrey;
-  text-align: center;
-  padding: 1em;
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Deux colonnes pour le texte et l'image */
-  align-items: center; /* Centre les éléments verticalement */
+.producteurs {
+	display: flexbox;
+	width: max(400px, 60vw - 4rem);
+	margin: 1em;
 }
 
-#PresentationContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.producteur {
+	position: relative;
+	padding: 0 1rem;
+	margin-top: 1rem;
+	border: solid 1px black;
+	border-radius: 5px;
+	background-color: #EEFFF1;
 }
 
-#PresentationTitle {
-  font-size: 2em;
-  margin: 0;
+.producteur:last-child {
+	margin-bottom: calc(1rem + var(--footer-height));
 }
 
-#PresentationText {
-  font-size: 1.5em;
-  margin: 0;
+.produit {
+	position: absolute;
+	height: calc(100% - 1rem);
+	right: 6rem;
+	top: 0.5rem;
+	border-radius: 10px;
 }
 
-#PresentationImage {
-  margin-top: 1em;
+.reserver {
+	position: absolute;
+	width: 5rem;
+	height: calc(100% - 1rem);
+	right: 0.5rem;
+	top: 0.5rem;
+	border-radius: 5px;
+	background-color: cadetblue;
+	color: black;
+	padding: 1rem;
 }
 
-#Image {
-  height: 30vh;
+.reserver img {
+	position: absolute;
+	width: 4rem;
+	top: 0.5rem;
+	right: 0.5rem;
 }
 
-#ProduitsTitle {
-  font-size: 2em;
-  margin: 0;
-  padding: 0.5em;
-  text-align: center;
+.reserver span {
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.5rem;
 }
 
-#ProduitsText {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto;
-  grid-gap: 10px; /* Espace entre les éléments */
-  justify-items: center; /* Centre les éléments horizontalement */
-  font-size: xx-large;
-}
-
-#ProduitsText div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.image {
-  height: 20vh;
+iframe {
+	position: fixed;
+	width: calc(40vw - 4rem);
+	height: calc(100vh - var(--footer-height) - var(--nav-height) - 2rem);
+	right: 2rem;
+	top: calc(var(--nav-height) + 1rem);
 }

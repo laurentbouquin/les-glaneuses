@@ -1,75 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="producteurs.css" />
-    <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <title>Les Glaneuses - Producteurs</title>
-  </head>
-  <body>
-    <div class="header">
-      <img src="../images/logo_les_glaneuses.png" id="logo" />
-      <button class="headerBut" id="ButHome">Accueil</button>
-      <button class="headerBut" id="ButProduct">Mes réservations</button>
-      <button class="headerBut" id="ButAbout">Nos producteurs</button>
-      <button class="headerBut" id="ButLog">Mon compte</button>
-    </div>
-    <h1 style="text-align: center">
-      Vous avez glané chez eux, découvrez qui ils sont !
-    </h1>
-    <div id="Presentation">
-      <div id="PresentationContent">
-        <div id="PresentationTitle">Jean-René Dupont</div>
-        <div id="PresentationText">
-          <p>
-            Éleveur bovin et laitier depuis 43 ans, Jean-René produit du blé
-            pour nourrir ses bêtes.
-          </p>
-          <p>
-            Il a toujours été passionné par son métier et a toujours eu à cœur
-            de respecter ses animaux et la nature.
-          </p>
-          <p>
-            Il a décidé de se lancer dans la vente directe pour pouvoir partager
-            sa passion et ses produits avec le plus grand nombre.
-          </p>
-        </div>
-      </div>
-      <div id="PresentationImage">
-        <img src="../images/jean-rene.jpeg" id="Image" />
-      </div>
-    </div>
-    <div id="ProduitsTitle"><ins>Ses produits</ins></div>
-    <div id="Produits">
-      <div id="ProduitsText">
-        <div id="ProduitsText1">
-          Viande de bœuf
-          <img src="../images/boeuf.jpeg" class="image" id="Image1" />
-        </div>
-        <div id="ProduitsText2">
-          Beurre
-          <img src="../images/beurre.jpeg" class="image" id="Image2" />
-        </div>
-        <div id="ProduitsText3">
-          Lait
-          <img src="../images/lait.jpeg" class="image" id="Image3" />
-        </div>
-        <div id="ProduitsText4">
-          Crème fraîche
-          <img src="../images/creme.jpeg" class="image" id="Image4" />
-        </div>
-      </div>
-    </div>
 
-    <footer id="footer">
-      <p id="footerTextMid">
-        Contactez-nous à
-        <a href="mailto:alexis.lasselin@algosup.com">contact@glaneuses.fr</a>
-      </p>
-      <p id="footerTextEnd">© 2022 Les Glaneuses</p>
-    </footer>
-    <script src="navbar.js"></script>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="navbar.css" />
+	<link rel="stylesheet" href="footer.css" />
+	<link rel="stylesheet" href="producteurs.css" />
+	<title>Les Glaneuses - Producteurs</title>
+</head>
+
+<body>
+	<div class="header">
+		<img src="../images/logo_les_glaneuses.png" id="logo" />
+		<button class="headerBut" id="ButHome">Accueil</button>
+		<button class="headerBut" id="ButProduct">Mes réservations</button>
+		<button class="headerBut" id="ButAbout">Nos producteurs</button>
+		<button class="headerBut" id="ButLog">Mon compte</button>
+	</div>
+	<div class="producteurs">
+		<div class="producteur">
+			<h2>Pommes de terre</h2>
+			<p>Ferme des beaux regards</p>
+			<p>10 Rue Marguerite Audoux</p>
+			<img class="produit" src="../images/potato.jpg" />
+			<button class="reserver" onclick="location.href = 'products.html'">
+				<img src="../images/calendar.png" />
+				<span>Réserver</span>
+			</button>
+		</div>
+		<div class="producteur">
+			<h2>Pommes de terre</h2>
+			<p>Ferme des beaux regards</p>
+			<p>10 Rue Marguerite Audoux</p>
+			<img class="produit" src="../images/potato.jpg" />
+			<button class="reserver" onclick="location.href = 'products.html'">
+				<img src="../images/calendar.png" />
+				<span>Réserver</span>
+			</button>
+		</div>
+		<div class="producteur">
+			<h2>Pommes de terre</h2>
+			<p>Ferme des beaux regards</p>
+			<p>10 Rue Marguerite Audoux</p>
+			<img class="produit" src="../images/potato.jpg" />
+			<button class="reserver" onclick="location.href = 'products.html'">
+				<img src="../images/calendar.png" />
+				<span>Réserver</span>
+			</button>
+		</div>
+		<div class="producteur">
+			<h2>Pommes de terre</h2>
+			<p>Ferme des beaux regards</p>
+			<p>10 Rue Marguerite Audoux</p>
+			<img class="produit" src="../images/potato.jpg" />
+			<button class="reserver" onclick="location.href = 'products.html'">
+				<img src="../images/calendar.png" />
+				<span>Réserver</span>
+			</button>
+		</div>
+		<div class="producteur">
+			<h2>Pommes de terre</h2>
+			<p>Ferme des beaux regards</p>
+			<p>10 Rue Marguerite Audoux</p>
+			<img class="produit" src="../images/potato.jpg" />
+			<button class="reserver" onclick="location.href = 'products.html'">
+				<img src="../images/calendar.png" />
+				<span>Réserver</span>
+			</button>
+		</div>
+	</div>
+
+	<iframe
+		src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d303219.3563039567!2d2.350578818686575!3d47.02478092768434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sferme!5e0!3m2!1sen!2sfr!4v1712867557384!5m2!1sen!2sfr"
+		width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+		referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	<footer id="footer">
+		<p id="footerTextMid">
+			Contactez-nous à
+			<a href="mailto:alexis.lasselin@algosup.com">contact@glaneuses.fr</a>
+		</p>
+		<p id="footerTextEnd">© 2022 Les Glaneuses</p>
+	</footer>
+	<script src="navbar.js"></script>
+</body>
+
 </html>
