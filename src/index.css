@@ -14,6 +14,14 @@ body {
   text-align: center;
 }
 
+#Top h2 {
+  margin-bottom: 0;
+}
+
+#Top p {
+  margin: 0;
+}
+
 #map {
   text-align: center;
   width: 300px; /* Largeur souhaitée */
